@@ -1,0 +1,34 @@
+<h1>Encrypt your password</h1>
+
+<form action="/" method="post">
+<input type="text" name="password" placeholder="password">
+<br>
+<br>
+<input type="number" name="rounds" placeholder="rounds" min="8" max="31">
+<br>
+<br>
+<button type="submit">Encrypt</button>
+<br>
+<hr>
+<h2>Rounds Info: </h2>
+<h3> rounds=8 : ~40 hashes/sec
+    <br>
+    rounds=9 : ~20 hashes/sec
+    <br>
+    rounds=10: ~10 hashes/sec
+    <br>
+    rounds=11: ~5  hashes/sec
+    <br>
+    rounds=12: 2-3 hashes/sec
+    <br>
+    rounds=13: ~1 sec/hash
+    <br>
+    rounds=14: ~1.5 sec/hash
+    <br>
+    rounds=15: ~3 sec/hash
+    <br>
+    rounds=25: ~1 hour/hash
+    <br>
+    rounds=31: 2-3 days/hash</h3>
+
+</form>
